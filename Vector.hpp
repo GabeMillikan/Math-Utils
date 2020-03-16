@@ -6,7 +6,6 @@ class Vector3d
 public:
     double x, y, z;
 
-    Vector3d();
     Vector3d(double x = 0, double y = 0, double z = 0);
     Vector3d(const Vector3d& other);
 
