@@ -1,12 +1,5 @@
 #include "Vector.hpp"
 
-Vector3d::Vector3d()
-{
-    this->x = 0;
-    this->y = 0;
-    this->z = 0;
-}
-
 Vector3d::Vector3d(double x, double y, double z)
 {
     this->x = x;
